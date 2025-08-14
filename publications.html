@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publications — Jon Belof</title>
+    <meta name="description" content="Publications by Jon Belof" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #ffffff; --text: #111827; --muted: #4b5563; --accent: #0ea5e9; --border: #e5e7eb; --card: #fafafa;
+        --shadow: 0 10px 25px rgba(0,0,0,0.06); --radius: 18px; --maxw: 1050px;
+      }
+      body { margin:0; font-family:Inter, system-ui, sans-serif; color:var(--text); background:var(--bg); }
+      a { color: var(--accent); text-decoration:none; }
+      a:hover { text-decoration:underline; }
+      .nav { position: sticky; top:0; backdrop-filter:saturate(180%) blur(10px); background:rgba(255,255,255,0.8); border-bottom:1px solid var(--border); }
+      .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 14px 18px; display:flex; justify-content:space-between; align-items:center; }
+      .brand { font-weight:700; font-size:18px; }
+      .menu { display:flex; gap:18px; }
+      .menu a { color:var(--muted); font-weight:600; font-size:14px; padding:8px 12px; border-radius:10px; }
+      .menu a.active, .menu a:hover { color:var(--text); background:#f3f4f6; text-decoration:none; }
+      .wrap { max-width: var(--maxw); margin: 40px auto; padding:0 18px; display:grid; grid-template-columns: 290px 1fr; gap:28px; }
+      @media(max-width:880px){ .wrap { grid-template-columns:1fr; } }
+      .card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); }
+      .profile { padding:22px; }
+      .avatar { width: 110px; height: 110px; border-radius: 999px; object-fit: cover; display: block; margin-bottom: 14px; }
+      .name { font-size:32px; font-weight:800; margin: 2px 0; }
+      .affil { color:var(--muted); font-weight:500; line-height:1.35; }
+      .contact { padding:14px 22px 22px; border-top:1px solid var(--border); font-size:14px; color:var(--muted); }
+      .content { display:grid; gap:22px; }
+      section { background:white; border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); padding:26px; }
+      section h2 { margin:0 0 8px; font-size:22px; }
+      section p { color:var(--muted); line-height:1.75; }
+      .list { padding-left: 18px; }
+      .list li { margin: 8px 0; }
+      .footer { max-width: var(--maxw); margin:36px auto 80px; color:var(--muted); padding:0 18px; font-size:14px; }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <div class="brand">Jon Belof</div>
+        <div class="menu">
+          <a href="index.html">about</a>
+          <a href="publications.html" class="active">publications</a>
+        </div>
+      </div>
+    </nav>
+    <main class="wrap">
+      <aside>
+        <div class="card profile">
+          <img src="portrait.jpg" alt="Jon Belof" class="avatar" />
+          <div class="name">Jon Belof</div>
+          <div class="affil">Lawrence Livermore National Laboratory<br/>Livermore, CA</div>
+        </div>
+        <div class="card contact">
+          <div>Email: <a href="mailto:belof1@llnl.gov">belof1@llnl.gov</a></div>
+          <div>GitHub: <a href="https://github.com/belof1" target="_blank">belof1</a></div>
+          <div>Google Scholar: <a href="#" target="_blank">Add link</a></div>
+          <div>LLNL Profile: <a href="#" target="_blank">Add link</a></div>
+        </div>
+      </aside>
+      <div class="content">
+        <section>
+          <h2>Publications</h2>
+          <p>Publications as of Aug 2025</p>
+          <ul class="list">
+            <li>C.G. Meisner, J.H. Nguyen, M. Armstrong, B.M. LaLone, J.L. Belof and J.E. Garay, “Al-W Gradient Density Materials – Processing and Dynamic Ramp Compression”, <em>J. Appl. Phys.</em> 138:025103 (2025) <a href="https://doi.org/10.1063/5.0261507">[DOI]</a></li>
+            <li>T. Linke, D.M. Sterbentz, N. Gronbech-Jensen, J.-P. Delplanque, J.L. Belof, “A Concurrent Multiscale Framework Coupling Direct Simulation Monte Carlo and Molecular Dynamics”, <em>J. Comp. Phys.</em> (submitted) <a href="http://arxiv.org/abs/2506.01924">[DOI]</a></li>
+            <li>M.H. Shachar, W.J. Schill, M.R. Armstrong, J.H. Nguyen, A. Gibson, D.M. Sterbentz, K.A. Korner, H.L. Lorenzana, B. LaLone, M.D. Staska, L.X. Benedict, R.N. Rieben and J.L. Belof, “Light-heavy Richtmyer-Meshkov instability suppression via anti-vortical flow”, <em>Nature Comm.</em> (submitted)</li>
+            <li>J.L. Belof, J.L. Brown, P.C. Myint, D.M. Sterbentz, Y. Hao, B.S. Stoltzfus and L.X. Benedict, “Interpreting dynamic-compression experiments to uncover the time dependence of freezing: application to gallium”, <em>Proc. Nat. Acad. Sci.</em> 122(20) e2424703122 (2025) <a href="https://doi.org/10.1073/pnas.2424703122">[DOI]</a></li>
+            <li>K.A. Korner, B. Talamini, J. Andrej, M. Tupek, B. Moses, R.N. Rieben, T. Kolev, J. Bramwell, D.A. White, J.L. Belof, W.J. Schill, “Differentiable Lagrangian Shock Hydrodynamics with application to stable shock acceleration of density interfaces”, <em>J. Comp. Phys.</em> (submitted) <a href="https://arxiv.org/abs/2503.17527">[DOI]</a></li>
+            <li>P-H. Tsai, S.W. Chung, D. Ghosh, J. Lofeld, Y. Choi, J.L. Belof, “Local Reduced-Order Modeling for Electrostatic Plasmas by Physics-Informed Solution Manifold Decomposition”, <em>Comp. Phys. Comm.</em> (2025) <a href="http://dx.doi.org/10.2139/ssrn.5134633">[DOI]</a></li>
+            <li>C.F. Jekel, D.M. Sterbentz, T.M. Stitt, P. Mocz, R.N. Rieben, D.A. White and J.L. Belof, “Machine Learning Visualization Tool for Exploring Paramaterized Hydrodynamics”, <em>Machine Learning: Science and Technology</em> 5:045048 (2024) <a href="https://dx.doi.org/10.1088/2632-2153/ad8daa">[DOI]</a></li>
+            <li>H. Yang, M.R. Armstrong, R.A. Austin, H.B. Radousky, A.H. Patel, T. Wei, A.F. Goncharov, W.L. Mao, E. Granados, H.J. Lee, I. Nam, B. Nagler, P. Walter, J.L. Belof, S.B. Brown, V. Prakapenka, S.S. Lobanov, C. Prescher, N. Holtgrewe, E. Stavrou, P.V. Grivickas, A.E. Gleason, “Evidence of non-isentropic release from high residual temperatures in shocked metals measured with ultrafast x-ray diffraction”, <em>J. Appl. Phys.</em> 136:055901 (2024) <a href="https://doi.org/10.1063/5.0217779">[DOI]</a></li>
+            <li>J. Strucka, D.M. Sterbentz, B. Lukic, K. Mughal, Y. Yao, W.J. Schill, R. Grikshtas, O. Belozerov, S. Efimov, J. Skidmore, A. Rack, Y. Krasik, J.L. Belof, J.P. Chittenden and S.N. Bland, “Richtmyer-Meshkov instability suppression by engineered acoustic defects and its underlying mechanisms”, <em>Nat. Comm.</em> (submitted)</li>
+            <li>S.E. Parsons, M.R. Armstrong, H.J. Lee, A.E. Gleason, A.F. Goncharov, J.L. Belof, V. Prakapenka, E. Granados, F.N. Beg and H.B. Radousky, “Study of ablation and shock generation across 3 orders of magnitude of laser intensity”, <em>Appl. Phys. Lett.</em> 125:164104 (2024) <a href="https://doi.org/10.1063/5.0222979">[DOI]</a></li>
+            <li>M.R. Armstrong, J. Nguyen, W.J. Schill, D.M. Sterbentz, D.A. White, L.X. Benedict, R.N. Rieben, A.K. Ackerman, A. Hoff, H.L. Lorenzana and J.L. Belof, “Complete suppression of the Richtmyer-Meshkov instability using tailored double shock compression”, <em>Nature</em> (in preparation)</li>
+            <li>M.P. Hennessey, F. Wilson, G.I. Rabinowitz, M.J. Sevcik, G. Bjerke, K. J. Tucker, J. Frishkoff, V. Eliasson, D.J. Kline, D.K. Amondson, H.K. Springer, K.T. Sullivan, J.L. Belof, “Modification of Jet Velocities in an Explosively Loaded Copper Plate with a Conical Defect”, <em>J. Dyn. Behav. Mater .</em> (2024) <a href="https://doi.org/10.1007/s40870-024-00447-5">[DOI]</a></li>
+            <li>D.M. Sterbentz, D.J. Kline, D.A. White, C.F. Jekel, M.P. Hennessey, D.K. Amondson, A.J. Wilson, M.J. Sevcik, M.F.L. Villena, S. Lin, M.D. Grapes, K.T. Sullivan and J.L. Belof, “Explosively driven Richtmyer–Meshkov instability jet suppression and enhancement via coupling machine learning and additive manufacturing” <em>J. Appl. Phys</em> 136:035102 (2024) <a href="https://doi.org/10.1063/5.0213123">[DOI]</a></li>
+            <li>X. He, Y. Choi, W.D. Fries, J.L. Belof and J-S. Chen, “Certified data-driven physics-informed greedy auto-encoder simulator”, <em>NeurIPS</em> <a href="https://arxiv.org/abs/2211.13698">[DOI]</a></li>
+            <li>P. Tsai, K. Chung, D. Ghosh, J. Loffeld, Y. Choi and J.L. Belof, “Accelerating Kinetic Simulations of Electrostatic Plasmas with Reduced-Order Modeling”, <em>NeurIPS</em> (accepted) <a href="https://arxiv.org/abs/2310.18493">[DOI]</a></li>
+            <li>C. Bonneville, Y. Choi, D. Ghosh and J.L. Belof, “Data-Driven Autoencoder Numerical Solver with Uncertainty Quantification for Fast Physical Simulations”, <em>NeurIPS</em> (accepted) <a href="https://arxiv.org/abs/2312.01021">[DOI]</a></li>
+            <li>W.J. Schill, M.R. Armstrong, J.H. Nguyen, D.M. Sterbentz, D.A. White, L.X. Benedict, R.N. Rieben, A. Hoff, H.E. Lorenzana, B.M. La Lone, M.D. Staska and J.L. Belof, “Suppression of Richtmyer-Meshkov instability via special pairs of shocks and phase transitions”, <em>Phys. Rev. Lett.</em> 132:024001 (2024) <a href="https://doi.org/10.1103/PhysRevLett.132.024001">[DOI]</a></li>
+            <li>M.J. Sevcik, J. Golson, G. Bjerke, F. Wilson, G.I. Rabinowitz, D. J. Kline, M.D. Grapes, K.T. Sullivan, J.L. Belof, V. Eliasson, “Progressive Cavity Pump Extrusion System for Multi-Material and Functionally Graded Direct Ink Write 3D Printing”, <em>HardwareX</em> 17:e00515 (2024) <a href="https://doi.org/10.1016/j.ohx.2024.e00515">[DOI]</a></li>
+            <li>D.J. Kline, M.P. Hennessey, D.K. Amondson, S. Lin, M.D. Grapes, M. Ferrucci, P. Li, H.K. Spring, R.V. Reeves, K.T. Sullivan and J.L. Belof, “Reducing Richtmyer Meshkov Instability Jet Velocity via Inverse Design”, <em>J. Appl. Phys</em> 135:074902 (2024) <a href="https://doi.org/10.1063/5.0180712">[DOI]</a></li>
+            <li>M. Hennessey, H.K. Springer and J.L. Belof, “Modification of Richtmyer-Meshkov Instabilities via Layered Explosive Charge Design”, <em>J. Appl. Phys.</em> 134:245901 (2023) <a href="https://doi.org/10.1063/5.0165094">[DOI]</a></li>
+            <li>C. Bonneville, Y. Choi, D. Ghosh and J.L. Belof, “GPLaSDI: Gaussian Process-based Interpretable Latent Space Dynamics Identification through Deep Autoencoder”, <em>Comput. Methods Appl. Mech. Eng.</em> 418:116535 (2024) <a href="https://doi.org/10.1016/j.cma.2023.116535">[DOI]</a></li>
+            <li>P.C. Myint, D.M. Sterbentz, J.L. Brown, B.S. Stoltzfus, J-P.R. Delplanque and J.L. Belof, “A scaling law for the onset of solidification at extreme undercooling”, <em>Phys. Rev. Lett.</em> 131:106101 (2023) <a href="https://doi.org/10.1103/PhysRevLett.131.106101">[DOI]</a></li>
+            <li>D.M. Sterbentz, C.F. Jekel, D.A. White and J.L. Belof, “Linear shaped-charge jet optimization using machine learning methods”, <em>J. Appl. Phys.</em> 134:045102 (2023) <a href="https://doi.org/10.1063/5.0156373">[DOI]</a></li>
+            <li>C.H. Pham, H.E. Lorenzana, J.L. Belof and Nir Goldman, “Hugoniot Properties of Porous Stainless Steel: Insights from Molecular Dynamics Simulations”, <em>J. Appl. Phys.</em> 134:045901 (2023) <a href="https://doi.org/10.1063/5.0161413">[DOI]</a></li>
+            <li>W.J. Schill, R.A. Austin, K.L. Schmidt, J.L. Belof, W. Anderson, J. Brown, N.R. Barton, “Inference of strength and phase transition kinetics in dynamically-compressed tin”, <em>J. Appl. Phys.</em> 133:245903 (2023) <a href="https://doi.org/10.1063/5.0150749">[DOI]</a></li>
+            <li>M.J. Sevcik, B. Bjerke, F. Wilson, D.J. Kline, R.C. Morales, H.E. Fletcher, K. Guan, M. Grapes, S. Seetharaman, K.T. Sullivan, J.L. Belof and V. Eliasson, “Extrusion parameter control optimization for DIW 3D printing using image analysis techniques”, <em>Prog. Addit. Manuf.</em> (2023) <a href="https://doi.org/10.1007/s40964-023-00470-3">[DOI]</a></li>
+            <li>X. He, Y. Choi, W.D. Fries, J.L. Belof, J.-S. Chen, “gLaSDI: Parametric Physics-informed Greedy Latent Space Dynamics Identification”, <em>J. Comp. Phys.</em> 489:112267 (2023) <a href="https://doi.org/10.1016/j.jcp.2023.112267">[DOI]</a></li>
+            <li>M.J. Sevcik, G. Bjerke, F. Wilson, D.J. Kline, R.Chavez, H.E. Fletcher, K. Guan, M.D. Grapes, S. Seetharaman, K.T. Sullivan and J.L. Belof, “Optimizing Additive Manufacturing Material Extrusion Control Parameters Using Image Analysis”, <em>J. Manufacturing Processes</em> (submitted)</li>
+            <li>N. Goldman, L. Zepeda-Ruiz, R.G. Mullen, R.K. Lindsey, C.H. Pham, L.E. Fried and J.L. Belof, “Estimates of Quantum Tunneling Effects for Hydrogen Diffusion in PuO2”, <em>App. Sci.</em> 12:11005 (2023) <a href="https://doi.org/10.3390/app122111005">[DOI]</a></li>
+            <li>J.L. Belof, M. Murialdo and B. Sadigh, “An atomistic theory of nucleation: self-organization via non-equilibrium work and fluctuations”, <em>J. Crystal Growth</em> 603:127040 (2023) <a href="https://doi.org/10.1016/j.jcrysgro.2022.127040">[DOI]</a></li>
+            <li>C.F. Jekel, D.M. Sterbentz, S. Aubry, Y. Choi, D.A. White and J.L. Belof, “Using Conservation Laws to Infer Deep Learning Model Accuracy of Richtmyer-meshkov Instabilities”, ECCOMAS (2022) <a href="https://arxiv.org/abs/2208.11477">[DOI]</a></li>
+            <li>Z.M. Grande, C.H. Pham, D. Smith, J.H. Boisvert, C. Huang, J.S. Smith, N. Goldman, J.L. Belof, O. Tschauner, J.H. Steffen and A. Salamat, “Pressure driven symmetry transitions in dense H2O”, <em>Phys. Rev. B</em> 105:104109 (2022) <a href="https://doi.org/10.1103/PhysRevB.105.104109">[DOI]</a></li>
+            <li>D.M. Sterbentz, P.C. Myint, J.-P. Delplanque, Y. Hao, J.L. Brown, B.S. Stoltzfus and J.L. Belof, “A model for the solid–liquid interfacial free energy at high pressures”, <em>Langmuir</em> 38:9892 (2022) <a href="https://doi.org/10.1021/acs.langmuir.2c01097">[DOI]</a></li>
+            <li>D.J. Kline, M.D. Grapes, R.C. Morales, G.C. Egan, J.D. Sain, Z.D. Doorenbos, H.E. Fletcher, E.A. Avalos, B.M. English, V. Eliasson, K.T. Sullivan and J.L. Belof, “In situ laser profilometry for material segmentation and digital reconstruction of a multicomponent additively manufactured part”, <em>Additive Manufacturing</em> 102896 (2022) <a href="https://doi.org/10.1016/j.addma.2022.102896">[DOI]</a></li>
+            <li>M.R. Armstrong, H.B. Radousky, R.A. Austin, O. Tschauner, S. Brown, A.E. Gleason, N. Goldman, E. Granados, P. Grivickas, N. Holtgrewe, M.P. Kroonblawd, H.J. Lee, S. Lobanov, B. Nagler, I. Nam, V. Prakapenka, C. Prescher, E.J. Reed, E. Stavrou, P. Walter, A.F. Goncharov and J.L. Belof, “Highly ordered graphite (HOPG) to hexagonal diamond (lonsdaleite) phase transition observed on picosecond time scales using ultrafast x-ray diffraction”, <em>J. Appl. Phys.</em> 132:055901 (2022) <a href="https://doi.org/10.1063/5.0085297">[DOI]</a></li>
+            <li>P. Grivickas, R. A. Austin, M. R. Armstrong, H. B. Radousky, and J. L. Belof, “Phase transitions in Zr at sub-nanosecond time scales”, <em>J. Appl. Phys.</em> 131:085902 (2022) <a href="https://doi.org/10.1063/5.0080508">[DOI]</a></li>
+            <li>M. Sims, R. Briggs, T.J. Volz, S. Singh, S. Hamel, A.L. Coleman, F. Coppari, D. Erskine, M.G. Gorman, B. Sadigh, J.L. Belof, J.H. Eggert, R.F. Smith, J.K. Wicks, “Experimental and theoretical examination of shock-compressed copper through the fcc to bcc to melt phase transitions”, <em>J. Appl. Phys.</em> 132:075902 (2022) <a href="https://doi.org/10.1063/5.0088607">[DOI]</a></li>
+            <li>D.M. Sterbentz, C.F. Jekel, D.A. White, S.Aubry, J.L. Belof, “Design optimization for Richtmyer—Meshkov instability suppression at dynamically driven perturbed interfaces,” <em>Phys. Fluids</em> 34:082109 (2022) <a href="https://doi.org/10.1063/5.0100100">[DOI]</a></li>
+            <li>M. Sevcik, G. Bjerke, F. Wilson, D. J. Kline, R. Chavez Morales, H. E. Fletcher, M. D. Grapes, J. L. Belof, K. T. Sullivan, V. Eliasson, “Designing a direct ink writing printer to achieve high-fidelity prints”, <em>Soc. for Exp. Mech.</em> (2022)</li>
+            <li>M.J. Sevcik, G. Bjerke, F. Wilson, D. J. Kline, R. Chavez Morales, H.E. Fletcher, K. Guan, M.D. Grapes, K.T. Sullivan, J.L. Belof, V. Eliasson, “Direct Ink Writing Fidelity Analysis Using Image Processing to Optimize Extrusion Parameters”, <em>Adv. Manufacturing</em> (2022)</li>
+            <li>R.G. Kraus, R.J. Hemley, S.J. Ali, J.L. Belof, L.X. Benedict, J. Bernier, D. Braun, R.E. Cohen, G.W. Collins, F. Coppari, M.P. Desjarlais, D. Fratanduono, S. Hamel, A. Krygier, A. Lazicki, J. Mcnaney, M. Millot, P.C. Myint, M.G. Newman, J.R. Rygg, D.M. Sterbentz, S.T. Stewart, L. Stixrude, D.C. Swift, C. Wehrenberg, J.H. Eggert, “Measuring the Melting Curve of Iron at Super-Earth Core Conditions”, <em>Science</em> 375:202 (2022) <a href="http://doi.org/10.1126/science.abm1472">[DOI]</a></li>
+            <li>M.C. Marshall, M. Millot, D.E. Fratanduono, D.M. Sterbentz, P.C. Myint, J.L. Belof, Y.-J. Kim, F. Coppari, J.H. Eggert, R.F. Smith and J.M. McNaney, “Metastability of liquid water freezing into ice VII under dynamic compression”, <em>Phys. Rev. Lett.</em> 127:135701 (2021) <a href="https://doi.org/10.1103/PhysRevLett.127.135701">[DOI]</a></li>
+            <li>J.L. Belof and J.I. Katz, “Apparatus for Measuring Strength in Biaxial Compression”, <em>Rev. Sci. Instr.</em> 93:043905 (2022) <a href="https://doi.org/10.1063/5.0059227">[DOI]</a></li>
+            <li>M.R. Murialdo and J.L. Belof, “Can a Stablecoin be Collateralized by a Fully Decentralized, Physical Asset?”, Cryptoeconomic Sys. 2:1 (2022) <a href="https://doi.org/10.21428/58320208.adf5637a">[DOI]</a></li>
+            <li>C.J. Wu, P.C. Myint, C.J. Prisbrey, S.A. Bonev, J.L. Belof, “Five-phase global equation of state for gallium”, Phys. Rev. B (submitted)</li>
+            <li>P.C. Myint, C.J. Wu, L.X. Benedict and J.L. Belof, “Minimization of Gibbs energy in high-pressure multiphase, multicomponent mixtures through particle swarm optimization”, <em>ACS Omega</em> 6:13341 (2021) <a href="https://doi.org/10.1021/acsomega.1c01300">[DOI]</a></li>
+            <li>M.R. Armstrong, H.B. Radousky, R.A. Austin, E. Stavrou, Z. Hongxiang, G.J. Ackland, S. Brown, J.C. Crowhurst, A.E. Gleason, E. Granados, P. Grivickas, N. Holtgrewe, H.J. Lee, T.T. Li, S. Lobanov, J.T. McKeown, B. Nagler, I. Nam, A.J. Nelson, V. Prakapenka, C. Prescher, J.D. Roehling, N.E. Teslich, P. Walter, A.F. Goncharov and J.L. Belof, “Observation of fundamental mechanisms in compression-induced phase transformations using ultrafast x-ray diffraction”, <em>J. Materials</em>, 73:2185 (2021) <a href="https://doi.org/10.1007/s11837-020-04535-4">[DOI]</a></li>
+            <li>D.M. Sterbentz, P.C. Myint, J.-P. Delplanque and J.L. Belof, “Investigating the effect of ramp-compression rate on nanosecond solidification kinetics and the metastability limit”, (in preparation)</li>
+            <li>B. Sadigh, L. Zepeda-Ruiz and J.L. Belof, “Metastable-solid phase diagrams derived from polymorphic solidification kinetics”, <em>Proc. Nat. Acad. Sci.</em> 118(9) e2017809118 (2021) <a href="https://doi.org/10.1073/pnas.2017809118">[DOI]</a></li>
+            <li>D.M. Sterbentz, J.R. Gambino, P.C. Myint, J.-P. Delplanque, H.K. Springer and J.L. Belof, “Application of the differential evolution optimization algorithm to the inverse problem of determining the drive pressure in ramp-wave compression experiments”, <em>J. Appl. Phys.</em> 128:195903 (2020) <a href="https://doi.org/10.1063/5.0023361">[DOI]</a></li>
+            <li>H.B. Radousky, M.R. Armstrong, R.A. Austin, E. Stavrou, S. Brown, A.A. Chernov, A.E. Gleason, E. Granados, P. Grivickas, N. Holtgrewe, H.J. Lee, S. Lobanov, R. Nagler, I. Nam, V. Prakapenka, C. Prescher, P. Walter, A.F. Goncharov and J.L. Belof, “Melting and Refreeze of Zirconium Observed using Ultrafast x-ray diffraction”, <em>Phys. Rev. Res.</em> 013192 (2020) <a href="https://doi.org/10.1103/PhysRevResearch.2.013192">[DOI]</a></li>
+            <li>J.L. Belof, P.C. Myint, J.L. Brown and B.S. Stoltzfus, “Nucleation at extreme undercooling”, (in preparation, <em>Nature lett.</em>)</li>
+            <li>J.L. Belof, “An atomistic theory of nucleation, Part I: stochastic symmetry of the liquid state”, (in preparation, <em>PNAS</em>)</li>
+            <li>J.L. Belof, “An atomistic theory of nucleation, Part II: projection operator description of nucleation”, (in preparation, <em>PNAS</em>)</li>
+            <li>E. E. Moore, P.E.A. Turchi, A. Landa, P. S\"{o}derlind, B. Oudot, J. Belof, S. Stout and A. Perron, “Development of a CALPHAD thermodynamic database for Pu-U-Fe-Ga alloys”, <em>Appl. Sci.</em> 9:5040 (2019) <a href="https://doi.org/10.3390/app9235040">[DOI]</a></li>
+            <li>D.M. Sterbentz, P.C. Myint, J-P. Delplanque and J.L. Belof, “Numerical modeling of solid-cluster evolution applied to the nanosecond solidification of water near the metastable limit”, <em>J. Chem. Phys.</em> 151:164501 (2019) <a href="https://doi.org/10.1063/1.5125948">[DOI]</a></li>
+            <li>P.C. Myint, D.M. Sterbentz, B. Sadigh, L.X. Benedict, B.M. Hall and J.L. Belof, “Coupling solidification kinetics with phase-behavior computations in continuum-scale hydrodynamics simulations”, <em>AIP Adv.</em> 10:125111 (2020) <a href="https://doi.org/10.1063/5.0032973">[DOI]</a></li>
+            <li>D.M. Franz, J.L. Belof, K. McLaughlin, C.R. Cioce, B. Tudor, A. Hogan, L. Laratelli, M. Mulcair, M. Mostrom, A. Navas, A. Stern, K. Forrest, T. Pham and B. Space, “MPMC and MCMD: free high performance simulation software for atomistic systems”, <em>Adv. Theory Sim.</em> 1900113 (2019) <a href="https://doi.org/10.1002/adts.201900113">[DOI]</a></li>
+            <li>E. Stavrou, J.L. Belof, L.H. Yang, P. Soderlind, D. Aberg, H.B. Radousky, M.R. Armstrong, M. Kunz, E. Greenberg, V.B. Prakapenka and D.A. Young, “Anharmonicity-induced isostructural phase transition of Zirconium under pressure”, <em>Phys. Rev. B</em> 98:220101 (2018) <a href="https://doi.org/10.1103/PhysRevB.98.220101">[DOI]</a></li>
+            <li>J. Zaug, M. Rhodes, P. Grivickas, J.-B. Forien, C. Davis, K. Springer, L. Fried, T. Willey, J. Sain, O. Mays, M. Converse, J. Tringe, P. Chodash and J. Belof, “Elucidating Grain Scale Morphological Effects to Shocked PBX-9502”, (in preparation)</li>
+            <li>P.C. Myint, A.A. Chernov, B. Sadigh, L.X. Benedict, B.M. Hall, S. Hamel and J.L. Belof, “Nanosecond Freezing of Water at High Pressures: Nucleation and Growth near the Limits of Metastability”, <em>Phys. Rev. Lett.</em> 121:155701 (2018) <a href="https://doi.org/10.1103/PhysRevLett.121.155701">[DOI]</a></li>
+            <li>A. Samanta and J.L. Belof, “The liquid-solid interface at extreme conditions: a model close-packed system up to 100 GPa”, <em>J. Chem. Phys.</em> 149:124703 (2018) <a href="https://doi.org/10.1063/1.5028268">[DOI]</a></li>
+            <li>T. Haxhimali and J.L. Belof, “A Field Theory Description of the Structure and Dynamics of Out-of-Equilibrium Interfaces”, (in preparation)</li>
+            <li>M.R. Armstrong, H.B. Radousky, R.A. Austin, E. Stavrou, H. Zong, G.J. Ackland, S. Brown, J.C. Crowhurst, A.E. Gleason, E. Granados, P. Grivickas, N. Holtgrewe, H.J. Lee, T. Li, S. Lobonov, B. Nagler, I. Nam, A.J. Nelson, V. Prakapenka, C. Prescher, J.D. Roehling, N.E. Teslich,P. Walter, A.F. Goncharov and J.L. Belof, “Observation of a metastable intermediate during solid-solid phase transformation in response to rapid compression”, <em>J. Materials</em> 73:2185 (2021) <a href="https://doi.org/10.1007/s11837-020-04535-4">[DOI]</a></li>
+            <li>P.C. Myint and J.L. Belof, “Rapid freezing of water under dynamic compression”, <em>J. Phys: Condens. Matter</em>, 30:233002 (2018) <a href="http://dx.doi.org/10.1088/1361-648X/aac14f">[DOI]</a></li>
+            <li>P.C. Myint, L.X. Benedict and J.L. Belof, “Free energy models for ice VII and liquid water derived from pressure, entropy, and heat capacity relations”, <em>J. Chem. Phys.</em>, 147:084505 (2017) <a href="http://dx.doi.org/10.1063/1.4989582">[DOI]</a></li>
+            <li>L. A. Zepeda-Ruiz, A. A. Chernov, T. Oppelstrup, B. Sadigh, A. Samanta, T. Haxhimali, S. Hamel, L.X. Benedict, and J.L. Belof, “Extraction of effective solid-liquid interfacial free energies for full 3D solid crystallites from equilibrium MD simulations”, <em>J. Chem. Phys.</em>, 147:194704 (2017) <a href="http://doi.org/10.1063/1.4997595">[DOI]</a></li>
+            <li>J.L. Belof, J.L. DuBois, “Variational Perburation Theory for Warm Dense Matter”, (in preparation)</li>
+            <li>J.L. Belof, S. Wilks, J. Sinibaldi, “Non-Equilibrium Response of Deuterium-Tritium Fusion Plasma: Molecular Dynamics Study of Sub-Picosecond Ion Tail Replenishment”, <em>arXiv:1708.03653</em>, <a href="http://arxiv.org/abs/1708.03653">[DOI]</a></li>
+            <li>M.T. Henry de Frahan, J.L. Belof, R.M. Cavallo, O. Ignatova, E. Johnsen, V. Raevsky and B.A. Remington, “Experimental and Numerical Investigations of Beryllium Strength Models Using the Rayleigh-Taylor Instability”, <em>J. App. Phys.</em>, {\bf 117}, 225901 (2015) <a href="http://dx.doi.org/10.1063/1.4922336">[DOI]</a></li>
+            <li>T. Pham, K.A. Forrest, A. Hogan, B. Tudor, K. McLaughlin, J.L. Belof, J. Eckert and B. Space, “Understanding Hydrogen Sorption in In-soc-MOF: A Charged Metal-Organic Framework with Open-Metal Sites, Narrow Channels, and Counterions”, <em>Cryst. Growth Des.</em>, {\bf 15}, 1460-1471 (2015) <a href="http://dx.doi.org/10.1021/cg5018104">[DOI]</a></li>
+            <li>H.-S. Park, R.E. Rudd, R.M. Cavallo, N. Barton, A. Arsenlis, J.L. Belof, K.J.M. Blobaum, B.S. El-dasher, J.N. Florando, C.M. Huntington, B. R. Maddox, M.J. May, C. Plechaty, S.T., Prisbrey, B.A. Remington, R.J. Wallace, C.E. Wehrenberg, M.K. Wilson, A.J. Comley, E. Giraldez, A. Nikroo, M. Farrell, G. Randall, G.T. Gray, “Grain-Size-Independent Plastic Flow at Ultrahigh Pressures and Strain Rates”, <em>Phys. Rev. Lett.</em>, {\bf 114} 065502 (2015) <a href="http://dx.doi.org/10.1103/PhysRevLett.114.065502 ">[DOI]</a></li>
+            <li>T. Pham, K.A. Forrest, A. Hogan, K. McLaughlin, J.L. Belof, J. Eckert, B. Space “Simulations of Hydrogen Sorption in rht-MOF-1: Identifying the Binding Sites Through Explicit Polarization and Quantum Rotation Calculations”, <em>J. Mat. Chem. A</em>, {\bf 2}, 2088 (2014) <a href="http://dx.doi.org/10.1039/C3TA14591C">[DOI]</a></li>
+            <li>J.L. Belof, B. Space, “Alternative Derivation of the Partition Function for Generalized Ensembles”, <em>arXiv:1309.2017</em>, <a href="http://arxiv.org/abs/1309.2017">[DOI]</a></li>
+            <li>J.L. Brown, C.S. Alexander, J.R. Asay, T.J. Vogler, D.H. Dolan and J.L. Belof, “Flow strength of tantalum under ramp compression to 250 GPa”, <em>J. Appl. Phys.</em>, {\bf 115}, 043530 (2014) <a href="http://dx.doi.org/10.1063/1.4863463">[DOI]</a></li>
+            <li>C.R. Cioce, K. McLaughlin, J.L. Belof, B. Space“A Polarizable and Transferable PHAST N2-N2 Potential for use in Materials Simulation”, <em>J. Theory Comput. Chem</em>, {\bf 9}, 5550 (2013) <a href="http://dx.doi.org/10.1021/ct400526a">[DOI]</a></li>
+            <li>K. McLaughlin, C.R. Cioce, T. Pham, J.L. Belof, B. Space, “Efficient Calculation of Many-Body Induced Electrostatics in Molecular Systems”, <em>J. Chem. Phys.</em>, <em>J. Chem. Phys.</em>, {\bf 39}, 184112 (2013) <a href="http://dx.doi.org/10.1063/1.4829144">[DOI]</a></li>
+            <li>S.J. Yep, J.L. Belof, D.A. Orlikowski, J.H. Nguyen, “Fabrication and Application of High Impedance Graded Density Impactors in Light-Gas Gun Experiments”, <em>Rev. Sci. Instrum.</em>, {\bf 84 }, 103909 (2013) <a href="http://dx.doi.org/10.1063/1.4826565">[DOI]</a></li>
+            <li>K. Forrest, T. Pham, J.L. Belof, A.C. Stern, M.J. Zaworotko, B. Space, “Simulation of the Mechanism of Gas Sorption in a MOF with Open Metal Sites: Molecular Hydrogen in PCN-61”, <em>J. Phys. Chem. C</em>, {\bf 116}, 15538 (2012) <a href="http:dx.doi.org/10.1021/jp306084t">[DOI]</a></li>
+            <li>I. Matanovi\'{c}, J.L. Belof, B. Space, K. Sillar, J. Sauer, J. Eckert, Z. Baci\'{c}, “Hydrogen adsorbed in Metal-Organic Framework-5: Coupled translation-rotation eigenstates from quantum five-dimensional calculations”, <em>J. Chem. Phys.</em>, {\bf 137}, 014701 (2012) <a href="http://dx.doi.org/10.1063/1.4730906">[DOI]</a></li>
+            <li>K. McLaughlin, C.R. Cioce, J.L. Belof, B. Space,“A Molecular H$_2$ Potential for Heterogeneous Simulations including Polarization and Many-Body van der Waals Interactions”, <em>J. Chem. Phys.</em>, {\bf 136}, 194302 (2012) <a href="http://dx.doi.org/10.1063/1.4717705">[DOI]</a></li>
+            <li>K. McLaughlin, C.R. Cioce, J.L. Belof, B. Space,“Erratum: A Molecular H$_2$ Potential for Heterogeneous Simulations including Polarization and Many-Body van der Waals Interactions”, <em>J. Chem. Phys.</em>, {\bf 137}, 129901 (2012) <a href="http://doi.org/10.1063/1.4755289">[DOI]</a></li>
+            <li>A.C. Stern, J.L. Belof, M. Eddaoudi, B. Space, “Understanding Hydrogen Sorption in a Polar MOF with Constricted Channels”, <em>J. Chem. Phys.</em>, {\bf 136}, 034705 (2012) <a href="http://dx.doi.org/10.1063/1.3668138">[DOI]</a></li>
+            <li>J.L. Belof, B. Space, “Microcanonical Effective Partition Function for the Anharmonic Oscillator”, <em>arXiv:1708.03659</em>, <a href="http://arxiv.org/abs/1708.03659">[DOI]</a></li>
+            <li>M.H. Alkordi, J.L. Belof, E. Rivera, L. Wojtas, M. Eddaoudi, “Insight into the Construction of Metal-Organic Polyhedra: Metal-Organic Cubes as a Case Study”, <em>Chem. Sci.</em>, {\bf 2}, 1695 (2011), <a href="http://dx.doi.org/10.1039/C1SC00269D">[DOI]</a></li>
+            <li>J.L. Belof, E.W. Lowe, R.W. Larsen, B. Space, “Volume Determination of Globular Proteins”, \\ <em>arXiv:1404.1616</em>, <a href="http://arxiv.org/abs/1404.1616">[DOI]</a></li>
+            <li>J.L. Belof, C.R. Cioce, X. Xu, X.P. Zhang, B. Space, H.L. Woodcock “Characterization of Tunable Radical Metal-Carbenes: Key Intermediates in Catalytic Cyclopropanation”, <em>Organometallics</em>, {\bf 30}, 2739 (2011) <a href="http://dx.doi.org/10.1021/om2001348">[DOI]</a></li>
+            <li>J.L. Belof, H.L. Woodcock, B. Space, “Rapidly Convergent Iterative Techniques Toward the Solution of Many-body Molecular Polarization Field Equations”, <em>J. Chem. Theory Comput.</em>, (in preparation)</li>
+            <li>N.R. McIntyre, E.W. Lowe, Jr., J.L. Belof, M. Ivkovic, J. Shafer, B. Space, D.J. Merkler, “Evidence for Substrate Pre-organization in the Peptidylglycine alpha-Amidating Monooxygenase (PAM) Reaction Describing the Contribution of Ground State Structure to Hydrogen Tunneling”, <em>J. Am. Chem. Soc.</em>, {\bf 132}, 16393 (2010) <a href="http://dx.doi.org/10.1021/ja1019194">[DOI]</a></li>
+            <li>M.H. Alkordi, A.C. Stern, J.L. Belof, B. Space, L. Wojtas, M.J. Zaworotko, M. Eddaoudi, “Molecular Squares: Confined Space with Specific Geometry for Hydrogen Uptake”, <em>J. Am. Chem. Soc.</em>, (submitted)</li>
+            <li>J.L. Belof, A.C. Stern, B. Space, “A Predictive Model of Hydrogen Sorption in Metal-Organic Materials”, <em>J. Phys. Chem. C</em>, {\bf 113}, 9316 (2009) <a href="http://dx.doi.org/10.1021/jp901988e">[DOI]</a></li>
+            <li>J.L. Belof, A.C. Stern, B. Space, “An Accurate and Transferable Intermolecular Diatomic Hydrogen Potential for Condensed Phase Simulation”, <em>J. Chem. Theory Comput.</em>, {\bf 4}, 1332 (2008) <a href="http://dx.doi.org/10.1021/ct800155q">[DOI]</a></li>
+            <li>A. Mokdad, J.L. Belof, S.W. Yi, S.E. Shuler, M.L. McLaughlin, B. Space, R.W. Larsen, “Photophysical Studies of the Trans to Cis Isomerization of the Push-Pull Molecule: \\ 1-(pyridin-4-yl)-2-(N-methylpyrrol-2-yl)-Ethene (mepepy)”, <em>J. Phys. Chem. A.</em>, {\bf 112}, 8310 (2008) <a href="http://dx.doi.org/10.1021/jp803268r">[DOI]</a></li>
+            <li>J.L. Belof, A.C. Stern, M. Eddaoudi, B. Space, “On the Mechanism of Hydrogen Storage in a Metal-Organic Framework Material”, <em>J. Am. Chem. Soc.</em>, {\bf 129}, 15202 (2007) <a href="http://dx.doi.org/10.1021/ja0737164">[DOI]</a></li>
+            <li>J.A. Matthews, J.L. Belof, M. Acevedo-Duncan, R.L. Potter, “Glucosamine-induced increase in Akt phosphorylation corresponds to increased endoplasmic reticulum stress in astroglial cells”, <em>Mol. Cell. Biochem.</em>, {\bf 298}, 109 (2007) <a href="http://dx.doi.org/10.1007/s11010-006-9358-5">[DOI]</a></li>
+            <li>J.L. Belof, “Survey of the Didemnins: A class of depsipeptide natural products with promising biomedical applications”, <em>arXiv:q-bio/0612040v1</em>, <a href="http://arxiv.org/abs/q-bio/0612040v1">[DOI]</a></li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">© <span id="year"></span> Jon Belof.</footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
