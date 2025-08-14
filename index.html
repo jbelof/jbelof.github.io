@@ -1,5 +1,77 @@
-
-
-Home page of <a href="http://people.llnl.gov/belof1">Dr. Jon Belof</a>, LLNL
-(under construction)
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jon Belof</title>
+    <meta name="description" content="Personal home page for Jon Belof" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>
+      /* Keep same styling as before */
+      :root {
+        --bg: #ffffff; --text: #111827; --muted: #4b5563; --accent: #0ea5e9; --border: #e5e7eb; --card: #fafafa;
+        --shadow: 0 10px 25px rgba(0,0,0,0.06); --radius: 18px; --maxw: 1050px;
+      }
+      body { margin:0; font-family:Inter, system-ui, sans-serif; color:var(--text); background:var(--bg); }
+      a { color: var(--accent); text-decoration:none; }
+      a:hover { text-decoration:underline; }
+      .nav { position: sticky; top:0; backdrop-filter:saturate(180%) blur(10px); background:rgba(255,255,255,0.8); border-bottom:1px solid var(--border); }
+      .nav-inner { max-width: var(--maxw); margin: 0 auto; padding: 14px 18px; display:flex; justify-content:space-between; align-items:center; }
+      .brand { font-weight:700; font-size:18px; }
+      .menu { display:flex; gap:18px; }
+      .menu a { color:var(--muted); font-weight:600; font-size:14px; padding:8px 12px; border-radius:10px; }
+      .menu a.active, .menu a:hover { color:var(--text); background:#f3f4f6; text-decoration:none; }
+      .wrap { max-width: var(--maxw); margin: 40px auto; padding:0 18px; display:grid; grid-template-columns: 290px 1fr; gap:28px; }
+      @media(max-width:880px){ .wrap { grid-template-columns:1fr; } }
+      .card { background:var(--card); border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); }
+      .profile { padding:22px; }
+      .avatar { width: 110px; height: 110px; border-radius: 999px; object-fit: cover; display: block; margin-bottom: 14px; }
+      .name { font-size:32px; font-weight:800; margin: 2px 0; }
+      .affil { color:var(--muted); font-weight:500; line-height:1.35; }
+      .contact { padding:14px 22px 22px; border-top:1px solid var(--border); font-size:14px; color:var(--muted); }
+      .content { display:grid; gap:22px; }
+      section { background:white; border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow); padding:26px; }
+      section h2 { margin:0 0 8px; font-size:22px; }
+      section p { color:var(--muted); line-height:1.75; }
+      .footer { max-width: var(--maxw); margin:36px auto 80px; color:var(--muted); padding:0 18px; font-size:14px; }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <div class="brand">Jon Belof</div>
+        <div class="menu">
+          <a href="#about" class="active">about</a>
+          <a href="publications.html">publications</a>
+        </div>
+      </div>
+    </nav>
+    <main class="wrap">
+      <aside>
+        <div class="card profile">
+          <img src="portrait.jpg" alt="Jon Belof" class="avatar" />
+          <div class="name">Jon Belof</div>
+          <div class="affil">Lawrence Livermore National Laboratory<br/>Livermore, CA</div>
+        </div>
+        <div class="card contact">
+          <div>Email: <a href="mailto:jbelof@gmail.com">jbelof@gmail.com</a></div>
+          <div>GitHub: <a href="https://github.com/jbelof" target="_blank">https://github.com/jbelof</a></div>
+          <div>Google Scholar: <a href="https://www.linkedin.com/in/jbelof/" target="_blank">Jon Belof</a></div>
+          <div>LinkedIn Profile: <a href="#" target="_blank">https://www.linkedin.com/in/jbelof/</a></div>
+          <div>ResearchGate: <a href="https://www.researchgate.net/profile/Jon-Belof" target="_blank">Jon Belof</a></div>
+        </div>
+      </aside>
+      <div class="content">
+        <section id="about">
+          <h2>About</h2>
+          <p>Scientific leader with long-track record of solving complex physical science problems.  Global in engagement, highly collaborative and passionate about discovery, with >130 research publications.  Leading international teams to success and knowing how to inspire toward goals.  AI engineering skills in large-scale LLM post-training, evaluation benchmarks and agentic application development for real-world scientific discovery.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">© <span id="year"></span> Jon Belof.</footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
